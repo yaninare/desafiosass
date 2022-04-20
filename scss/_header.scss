@@ -1,0 +1,42 @@
+$bg-color-header: #7f624e;
+
+header{
+    .nav-container{
+        background-color:$bg-color-header;
+        color: #312c26;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+            .nav{
+                background-color:$bg-color-header;
+                width: 100%;
+                color: #312c26;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                    .index:hover {
+                        transform: scale(2);
+                    }
+                    .scrum:hover {
+                        transform: scale(2);
+                    }
+                    .webdev:hover {
+                        transform: scale(2);
+                    }
+                    .enneagram:hover {
+                        transform: scale(2);
+                    }
+                    .contact:hover {
+                        transform: scale(2);
+                    }
+                    div{
+                        a{
+                            color: #eceaeb;
+                            text-decoration: none;
+                    }
+                }
+            }
+        }           
+}

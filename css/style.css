@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;1,400&display=swap");
+header .nav-container {
+  background-color: #7f624e;
+  color: #312c26;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+}
+header .nav-container .nav {
+  background-color: #7f624e;
+  width: 100%;
+  color: #312c26;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .nav-container .nav .index:hover {
+  transform: scale(2);
+}
+header .nav-container .nav .scrum:hover {
+  transform: scale(2);
+}
+header .nav-container .nav .webdev:hover {
+  transform: scale(2);
+}
+header .nav-container .nav .enneagram:hover {
+  transform: scale(2);
+}
+header .nav-container .nav .contact:hover {
+  transform: scale(2);
+}
+header .nav-container .nav div a {
+  color: #eceaeb;
+  text-decoration: none;
+}
+
+.sectionindex {
+  background-color: #c4b596;
+  padding: 10% 30% 5% 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.sectionindex p {
+  margin: 20px;
+}
+.sectionindex p .imageindex {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.sectionindex2 {
+  background-color: #949696;
+  padding: 10% 30% 5% 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #b69c8b;
+  color: #312c26;
+  padding: 20px 0px;
+  display: flex;
+  padding-left: 20%;
+  align-items: center;
+}
+.footer div div a {
+  color: #eceaeb;
+  text-decoration: none;
+}
+.footer div div .socialmedia {
+  margin-left: 50%;
+}
+
+/*GOOGLE FONTS*/
+* {
+  font-family: "Proza Libre", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
